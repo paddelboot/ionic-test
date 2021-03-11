@@ -21,7 +21,7 @@
       </ion-content>
     </ion-menu>
 
-    <ion-content id="mycontent"> Home </ion-content>
+    <ion-content id="mycontent"> Projects </ion-content>
   </ion-page>
 </template>
 
