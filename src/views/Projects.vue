@@ -14,7 +14,7 @@
           <ion-item type="button" router-link="/projects">
             <ion-label>Pokémon Projects</ion-label>
           </ion-item>
-          <ion-item type="button" router-link="/tests">
+          <ion-item type="button" router-link="/home">
             <ion-label>Pokémon Home</ion-label>
           </ion-item>
         </ion-list>

@@ -5,16 +5,15 @@ import Projects from '@/views/Projects.vue'
 const routes = [
   {
     path: '/',
-    name: 'Home',
+    redirect: 'Home'
+  },
+  {
+    path: '/home',
     component: Home
   },
   {
     path: '/projects',
     component: Projects
-  },
-  {
-    path: '/tests',
-    redirect: '/'
   }
 ]
 
