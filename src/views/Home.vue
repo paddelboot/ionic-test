@@ -3,12 +3,12 @@
     <ion-header>
       <ion-toolbar>
         <ion-buttons slot="start">
-          <ion-menu-button auto-hide="false" menu="testmenu"></ion-menu-button>
+          <ion-menu-button auto-hide="false" :menu="MENU_ID"></ion-menu-button>
         </ion-buttons>
       </ion-toolbar>
     </ion-header>
 
-    <ion-menu menu-id="testmenu" content-id="mycontent">
+    <ion-menu :menu-id="MENU_ID" content-id="mycontent">
       <ion-content>
         <ion-list>
           <ion-item type="button" router-link="/projects">
@@ -54,6 +54,9 @@ export default defineComponent({
     IonHeader,
     IonPage,
   },
+  created : function () {
+      this.MENU_ID = this.$route.name 
+  }
 });
 </script>
 
